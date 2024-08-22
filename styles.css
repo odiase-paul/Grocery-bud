@@ -167,3 +167,15 @@ h4 {
 .container {
   margin: 100px auto 20px;
 }
+
+@media only screen and (max-width: 361px) {
+  .grocery-form {
+    width: 100%;
+  }
+  #grocery {
+    width: 60%;
+  }
+  .submit-btn {
+    width: 25%;
+  }
+}

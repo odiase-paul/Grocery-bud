@@ -75,7 +75,7 @@ const setBackToDefault = () => {
   inputValue.value = "";
   isTrue = false;
   editId = "";
-  submit.textContent = "Submit";
+  submit.textContent = "Add";
 };
 const addToLocalStorage = (id, value) => {
   const grocery = { id: id, value: value };
